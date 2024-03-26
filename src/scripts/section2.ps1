@@ -1,0 +1,1 @@
+﻿return Get-WmiObject -Class Win32_OperatingSystem | Select-Object Caption, OSArchitecture, Version, BuildNumber, ProductType | ConvertTo-Json 
