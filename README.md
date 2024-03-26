@@ -76,10 +76,10 @@ The CheckARM project is organized into several directories, each serving a speci
 - **src/**: Contains additional files used by the script.
     - `config.json`: Basic operation parameters. The script reads parameters from this file.  
 - **src/data/**: Contains data required for parameter comparison and the application icon.
-	  - `Services.json`: Lists standard OS service parameters for comparison against the computer's services.
+    - `Services.json`: Lists standard OS service parameters for comparison against the computer's services.
     - `Software.json`: Lists names and versions of standard software for comparison purposes.
     - `groups.json`: Contains names of standard local groups of the operating system.
-	  - `checkarm_ico.ico`: Icon image used in the application.
+    - `checkarm_ico.ico`: Icon image used in the application.
 - **src/functions/**: PowerShell scripts that are included and used by the main script:
     - `main.ps1`: Contains core functions and utilities used by `CheckARM.ps1`.
     - `multi.ps1`: Handles analysis of multiple computers or IP ranges.
@@ -87,7 +87,7 @@ The CheckARM project is organized into several directories, each serving a speci
     - `scriptblocks.ps1`: Contains script blocks for parallel execution and specific checks.
 - **src/jsons/**: Directory for storing JSON files with computer paraeters for each block. This directory is cleared when the script starts.
 - **src/reporting/**: Contains files necessary for report creation.
-	  - `report_create.exe`: The compiled script for generating reports in DOCX format.
+    - `report_create.exe`: The compiled script for generating reports in DOCX format.
 - **src/reporting/templates/**: Contains report templates in .docx format.
 - **src/scripts/**: Contains PowerShell script blocks that extract computer parameters in JSON format to the `src/jsons` directory. Each script corresponds to a section of the report:
     - `section1.ps1`: General Information
